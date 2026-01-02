@@ -1,0 +1,12 @@
+Objective
+To configure OSPF for efficient and scalable routing.
+
+Description
+OSPF is a link-state routing protocol that calculates the shortest path using cost metrics.
+
+Commands Used
+router ospf 1
+network <network> <wildcard> area 0
+
+Result
+OSPF neighbors formed successfully, and inter-network communication was achieved.

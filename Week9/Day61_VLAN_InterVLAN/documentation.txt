@@ -1,0 +1,16 @@
+Objective
+To divide a network into multiple VLANs and enable communication between them using Inter-VLAN Routing.
+
+Description
+VLANs (Virtual LANs) logically separate devices within a switch. Inter-VLAN routing allows communication between VLANs using a router with sub-interfaces.
+
+Commands Used
+vlan <id>
+switchport mode access
+switchport access vlan <id>
+interface g0/0.<id>
+encapsulation dot1Q <id>
+ip address
+
+Result
+Devices within the same VLAN communicated successfully, and Inter-VLAN communication was enabled using router sub-interfaces.

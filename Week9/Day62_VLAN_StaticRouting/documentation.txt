@@ -1,0 +1,12 @@
+Objective
+To manually configure routes between different networks.
+
+Description
+Static routing requires the administrator to manually define the path packets should take to reach a destination network.
+
+Commands Used
+ip route <network> <mask> <next-hop>
+show ip route
+
+Result
+All networks successfully communicated using manually configured static routes.

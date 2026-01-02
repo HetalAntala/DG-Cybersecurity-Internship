@@ -1,0 +1,12 @@
+Objective
+To implement dynamic routing using RIP version 2.
+
+Description
+RIP is a distance-vector routing protocol that automatically shares routing information between routers.
+
+Commands Used
+router rip
+network <network>
+
+Result
+Routers dynamically learned routes, and end devices communicated across networks.

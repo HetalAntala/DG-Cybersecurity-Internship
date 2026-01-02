@@ -1,0 +1,13 @@
+Objective
+To automatically assign IP addresses to client devices.
+
+Description
+DHCP eliminates manual IP configuration by dynamically allocating IP addresses from a predefined pool.
+
+Commands Used
+ip dhcp nat pool <pool-name> <starting range> <ending range> netmask <subnet-mask>
+ip nat inside source list <any-Number> pool <pool-name>
+access-list <Number> permit <ip address> <subnetmask>
+
+Result
+PCs received IP addresses automatically and successfully communicated within the network.
