@@ -9,8 +9,8 @@
 - Nginx Reverse Proxy
 
 ## Tools Used
-- Windows Server 2010
-- Ubuntu Server 22.04
+- Windows Server 2022
+- Kali linux
 - VirtualBox
 - Nginx
 
