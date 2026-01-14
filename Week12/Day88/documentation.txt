@@ -1,0 +1,43 @@
+📘 DOCUMENTATION 
+
+🔹 Installation Steps
+
+Installed Nagios Core 4.4.14 on Ubuntu Server
+Installed Nagios Plugins and NRPE
+Configured Apache for Nagios web interface
+Configured host and service definitions
+Enabled NRPE-based remote monitoring
+
+🔹 Configuration Files
+
+nagios.cfg
+servers/kali1.cfg
+commands.cfg
+nrpe.cfg
+
+🔹 Tests Performed
+
+Test	            Result
+NRPE stop	        Alert generated
+High CPU load	    Warning/Critical
+Disk full	        Critical
+Service recovery	Automatic
+
+🔹 Problems Faced & Solutions
+
+❌ Issue 1: check_nrpe command not found
+✔ Solution: Installed NRPE plugins and verified path
+
+❌ Issue 2: Nagios UI downloading CGI files
+✔ Solution: Enabled Apache CGI module and fixed permissions
+
+❌ Issue 3: Disk alerts not triggering
+✔ Solution: Adjusted disk threshold values
+
+📸 SCREENSHOTS CHECKLIST (VERY IMPORTANT)
+
+✅ NRPE service CRITICAL
+✅ CPU Load WARNING / CRITICAL
+✅ Disk CRITICAL
+✅ All services recovered to OK
+
